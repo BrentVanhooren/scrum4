@@ -1,6 +1,48 @@
 body{
   background:#f6f7fa;
 }
+
+.s4_h1title{
+  color: #0e1a35;
+  span{
+    color:#a0abc2;
+  }
+}
+
+.s4_adduser{
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-color: #a0abc2;
+  &:hover{
+    background-color: #0e1a35;
+  }
+  i{
+    color: #fff;
+  }
+}
+
+
+
+.s4_usersearch{
+  .s4_sorttitel{
+    margin-top: 7px;
+    color: #a0abc2;
+  }
+  select{
+    background-color: #f6f7fa;
+    padding: 0px 30px;
+    border-radius: 20px;
+    color: #0e1a35;
+    font-weight: bold;
+    option{
+      color: #0e1a35;
+
+
+    }
+  }
+}
+
 .s4_foto_cirkel {
   width: 50px;
   height: 50px;
